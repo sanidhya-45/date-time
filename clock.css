@@ -1,0 +1,77 @@
+ body{
+ background: linear-gradient(-45deg, rgb(31, 26, 26), rgb(45, 43, 43), rgb(76, 75, 75));
+ background-size: 400% 400%;
+ animation: gradient 17s ease infinite;
+
+ }
+
+ @keyframes gradient {
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+    
+ }
+ header h2{
+    margin: 2px;
+    padding: 50px;
+    box-sizing: border-box;
+    text-align: center;
+    font-weight: bold;
+    font-family: cursive;
+    font-size: 50px;
+    color: white;
+    background-clip: text;
+    -webkit-background-clip: text;
+    transition: background-image 4s;
+}
+.section{
+
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.section2{
+
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    justify-content:space-evenly;
+}
+.space1{
+    padding-right: 90px;
+}
+
+.space2{
+    padding-right: 35px;
+}
+.space{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+    font-family: cursive;
+    color:white;
+}
+.button{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    font-family:cursive;
+    font-size: x-large;
+    border: none;
+    transition-duration: 0.4s;
+}
+.button:hover{
+    border: 2px solid white;
+    color:white;
+    background-color: black;
+}
+
+
+
+

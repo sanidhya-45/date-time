@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clock</title>
+    <link rel="stylesheet" href="clock.css">
+</head>
+<body>
+    <!-- <embed src="/clock-ticking-2.mp3" loop="true" autostart="true"> -->
+    <header>
+        <h2>
+            DATE-TIME
+        </h2>
+    </header>
+        
+    <div class="section">
+        
+        <button id="btn" class="button button1"  onclick="getdate()"> Date</button>
+        <button id="btn1" class="button button2" onclick="gettime(); sound()">Time</button>
+    </div>
+    <div class="section2">
+
+        <p id="date" class="space1 space" ></p>
+        <p id="timenow" class="space2 space"></p>
+    </div>
+    <script src="clock.js"></script>
+</body>
+</html>
